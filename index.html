@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Rush Knight The Game</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="Rush Knight" />
+  <link rel="apple-touch-icon" href="icon-128x128.png" />
+  <link rel="icon" type="image/png" href="icon-16x16.png" />
+  <meta property="og:title" content="Rush Knight The Game">
+  <meta property="og:description" content="Return to your homeland with 300 golden coins, collected through the crumbling corridors of an ancient kingdom.">
+  <meta property="og:image" content="icon-128x128.png">
+  <meta property="og:url" content="http://homes.jamk.fi/~k8473/rush_knight/">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="content">
+    <img id="title" src="assets/img/title.png" width="549" height="90" alt="Logo" />
+    <div id="game"></div>
+    <div id="buttons">
+      <div class="button-set">
+        <div id="button-left" class="touch-button">LEFT</div>
+        <div id="button-jump" class="touch-button">JUMP</div>
+        <div id="button-right" class="touch-button">RIGHT</div>
+      </div>
+      <div class="button-set">
+        <div id="button-sword" class="touch-button">SWORD</div>
+        <div id="button-shield" class="touch-button">SHIELD</div>
+      </div>
+    </div>
+    <span id="recommended">Google Chrome or Mozilla Firefox recommended</span>
+  </div>
+  <div id="info">
+    <h1>Rush Knight</h1>
+      <p>​
+        <span class="quote">"Once great, now deprived, this kingdom must survive."</span><br />- Devoid of hope, the King sent away another of his knights.
+      </p>
+      <p>
+        <strong>Return to your homeland with <span id="golden">300 golden coins</span></strong>, collected through the crumbling corridors of an ancient kingdom. With each corridor being more dangerous than the previous, you shouldn't waste your time.
+      </p>
+      <h1>Equipment</h1>
+      <h2>Hellfire Shield</h2>
+      <p>
+        Though resembling a tool of protection, it is not. This ancient artifact bears a portal to hell on its front surface, through which you can summon the burning souls of the fallen knights before you. Who knows, you might be one of them soon.
+      </p>
+      <h2>Straight Sword</h2>
+      <p>
+        A standard straight sword.
+      </p>
+      <h1>Controls</h1>
+      <h2>Keyboard controls</h2>
+      <p>
+        <strong>S</strong> to use sword<br />
+        <strong>D</strong> to use shield<br />
+        <strong>SPACEBAR</strong> to jump <br />
+        <strong>LEFT &amp; RIGHT ARROWS</strong> to move
+      </p>
+      <h2>Touch controls</h2>
+      <p>
+        Tap the start screen on your touch device to reveal the touch controls. Depending on your browser and device, the touch controls either work great or piss you off, apologies for that.
+      </p>
+      <h2>Resetting the game</h2>
+      <p>
+        After completing each corridor, your progress is saved and you can continue from where you left off. Should you feel the need to start from the beginning, do the following while in gameplay (your progress will be lost!):
+      </p>
+      <p>
+        <strong>Keyboard:</strong> press and hold down the R button for two seconds.<br />
+        <strong>Touch screen:</strong> touch and hold the game screen for two seconds.
+      </p>
+      <h1>Credits &amp; Copyright</h1>
+      <p>
+        Design, programming, graphics (excluding fonts), all music, "flying bat", "shoot" and "last coin" sound effects by Joonas Pilli.
+        <a href="https://fi.linkedin.com/pub/joonas-pilli/129/21b/ab"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Joonas Pilli's LinkedIn profile" style="vertical-align:middle;" border="0"></a>
+      </p>
+      <p>
+        <a href="http://www.freesound.org/people/newagesoup/sounds/339369/">"big-gate-close.wav" sound effect by newagesoup on freesound.org is licensed under the Creative Commons Attribution License (changes made: audio shortened).</a>
+      </p>
+      <p>
+        <a href="http://www.freesound.org/people/RSilveira_88/sounds/216199/">"Cartoon_Punch_05.wav" sound effect by RSilveira_88 on freesound.org is licensed under the Creative Commons Attribution License (changes made: audio shortened).</a>
+      </p>
+  </div>
+
+  <script src="lib/phaser/phaser.js"></script>
+  <script src="app/Boot.js"></script>
+  <script src="app/Settings.js"></script>
+  <script src="app/Scripts.js"></script>
+  <script src="app/TouchInput.js"></script>
+  <script src="app/HUD.js"></script>
+  <script src="app/classes/Explosion.js"></script>
+  <script src="app/classes/Fireball.js"></script>
+  <script src="app/LevelManager.js"></script>
+  <script src="app/classes/Player.js"></script>
+  <script src="app/classes/Bat.js"></script>
+  <script src="app/Load.js"></script>
+  <script src="app/InputConfirm.js"></script>
+  <script src="app/Credits.js"></script>
+  <script src="app/Menu.js"></script>
+  <script src="app/Game.js"></script>
+  <script src="app/End.js"></script>
+  <script src="app/App.js"></script>
+
+</body>
+</html>
